@@ -28,4 +28,5 @@
 .scss-lint.yml
 config.reek
 config/rails_best_practices.yml
+config/settings/*
 
