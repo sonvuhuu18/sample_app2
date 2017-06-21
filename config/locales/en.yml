@@ -22,20 +22,25 @@
 en:
   hello: "Hello world"
   base_title: "Ruby on Rails Tutorial Sample App"
+  welcome: "Welcome to the Sample App"
   home: "Home"
   help: "Help"
+  log_in: "Log in"
+  sign_up_now: "Sign up now!"
   about: "About"
+  contact: "Contact"
+  news: "News"
   home_content: |
     This is the home page for
     <a href="http://www.railstutorials.org">Ruby on Rails Tutorial</a>
     sample application.
-  help_content: | 
+  help_content: |
     Get help on the Ruby on Rails Tutorial at the
     <a href="http://www.railstutorials.org/help">Rails Tutorial help page</a>.
     To get help on this sample app, see the
     <a href="http://www.railstutorials.org/book"><em>Ruby on Rails Tutorial</em>
     book</a>.
-  about_content: | 
+  about_content: |
     The <a href="http://www.railstutorial.org/"><em>Ruby on Rails
     Tutorial</em></a> is a
     <a href="http://www.railstutorial.org/book">book</a> and
@@ -43,3 +48,9 @@ en:
     to teach web development with
     <a href="http://rubyonrails.org/">Ruby on Rails</a>.
     This is the sample application for the tutorial.
+  footer_content: |
+    The <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    by <a href="http://www.michaelhartl.com/">Michael Hartl</a>
+  contact_content: |
+    Contact the Ruby on Rails Tutorial about the sample app at the
+    <a href="http://www.railstutorial.org/contact">contact page</a>.
