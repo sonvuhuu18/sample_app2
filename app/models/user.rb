@@ -14,7 +14,7 @@ class User < ApplicationRecord
     presence: true,
     length: {maximum: Settings.password_max_length}
 
-  has_secured_password
+  has_secure_password
 
   private
 
