@@ -36,6 +36,8 @@ en:
   contact: "Contact"
   news: "News"
   not_found: "Not found"
+  invalid: "Invalid email/password combination"
+  new_user?: "New users? "
   home_content: |
     This is the home page for
     <a href="http://www.railstutorials.org">Ruby on Rails Tutorial</a>
