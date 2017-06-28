@@ -49,6 +49,17 @@ en:
   user_deleted: "User deleted"
   male: "Male"
   female: "Female"
+  sample_app: "Sample App"
+  hi: "Hi "
+  activated: "Account activated!"
+  check_email: "Please check your email to activate your account."
+  invalid_activation: "Invalid activation link"
+  check_email: |
+    Account not activated.
+    Check your email for the activation link.
+  welcome_mail: |
+    Welcome to the Sample App!
+    Click on the link below to activate your account:
   home_content: |
     This is the home page for
     <a href="http://www.railstutorials.org">Ruby on Rails Tutorial</a>
