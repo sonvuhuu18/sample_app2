@@ -39,6 +39,16 @@ en:
   invalid: "Invalid email/password combination"
   new_user?: "New users? "
   remember_me: "Remember me on this computer"
+  update_profile: "Update your profile"
+  edit_user: "Edit user"
+  save_changes: "Save changes"
+  profile_updated: "Profile updated"
+  please_log_in: "Please log in."
+  all_users: "All users"
+  you_sure: "You sure?"
+  user_deleted: "User deleted"
+  male: "Male"
+  female: "Female"
   home_content: |
     This is the home page for
     <a href="http://www.railstutorials.org">Ruby on Rails Tutorial</a>
