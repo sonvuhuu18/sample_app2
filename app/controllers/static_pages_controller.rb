@@ -2,7 +2,7 @@ class StaticPagesController < ApplicationController
   def home
     if logged_in?
       @micropost = current_user.microposts.build
-      @feed_items = current_user.microposts.paginate page: params[:page]
+      @feed_items = feed.newest_first.paginate page: params[:page]
     end
   end
 
@@ -11,4 +11,10 @@ class StaticPagesController < ApplicationController
   def about; end
 
   def contact; end
+
+  private
+
+  def feed
+    Micropost.feeds current_user.id
+  end
 end

@@ -9,6 +9,10 @@ class Micropost < ApplicationRecord
   validate :picture_size
 
   scope :newest_first, -> {order created_at: :desc}
+  scope :feeds, ->(id) do
+    where "user_id IN (SELECT followed_id FROM relationships
+       WHERE follower_id = #{id}) OR user_id = #{id}"
+  end
 
   mount_uploader :picture, PictureUploader
 

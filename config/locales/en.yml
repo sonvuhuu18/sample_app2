@@ -78,6 +78,10 @@ en:
   delete: "delete"
   micropost_deleted: "Micropost deleted"
   less_than_5MB: "Picture should be less than 5MB"
+  following: "Followings"
+  followers: "Followers"
+  follow: "Follow"
+  unfollow: "Unfollow"
   mail_expire: |
     This link will expire in two hours.
 
