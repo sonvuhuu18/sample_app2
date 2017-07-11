@@ -23,7 +23,9 @@ class UsersController < ApplicationController
     end
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.paginate page: params[:page]
+  end
 
   def edit; end
 
@@ -47,14 +49,6 @@ class UsersController < ApplicationController
   def user_params
     params.require(:user).permit :name, :email, :password,
       :password_confirmation, :gender
-  end
-
-  def logged_in_user
-    unless logged_in?
-      store_location
-      flash[:danger] = t "please_log_in"
-      redirect_to login_url
-    end
   end
 
   def correct_user
