@@ -8,6 +8,7 @@ $medium-light-gray: #555;
 $dark-gray: #222;
 $red: #f00;
 $gray91: #e8e8e8;
+$blue: #00f;
 
 @mixin box-sizing {
   box-sizing: border-box;
@@ -187,6 +188,10 @@ input {
     overflow: auto;
     padding: 10px 0;
   }
+
+  .follow {
+    padding: 0;
+  }
 }
 
 
@@ -234,3 +239,44 @@ input {
     border: 0;
   }
 }
+
+.stats {
+  margin-top: 0;
+  overflow: auto;
+  padding: 0;
+
+  a {
+    border-left: 1px solid $light-gray;
+    color: $gray;
+    float: left;
+    padding: 0 10px;
+
+    &:first-child {
+      border: 0;
+      padding-left: 0;
+    }
+
+    &:hover {
+      color: $blue;
+      text-decoration: none;
+    }
+  }
+
+  strong {
+    display: block;
+  }
+}
+
+.user-avatars {
+  margin-top: 10px;
+  overflow: auto;
+
+  .gravatar {
+    margin: 1px;
+  }
+
+  a {
+    padding: 0;
+  }
+}
+
